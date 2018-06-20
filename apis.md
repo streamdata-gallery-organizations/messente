@@ -1,62 +1,17 @@
 ---
-name: Messente
-x-slug: messente
-description: Simple, powerful, and transparent. Thats how we do business. Start messaging
-  your clients and verifying users now. No commitments, contracts, or sign-up fees.     http://messente.com/contact    Were
-  a forward-thinking team. Our purpose is to connect ...
-image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1817-messente.jpg
-x-kinRank: "7"
-x-alexaRank: "677156"
-tags: Messente
-created: "2018-05-24"
-modified: "2018-05-24"
-url: https://raw.githubusercontent.com/streamdata-gallery-organizations/messente/master/_listings/messente/apis.md
+name: Streadata.io API Gallery - Messente
+description: This is a repository of messente APIs, self-contained as a Github repository,
+  with HTML and YAML representations of the APIs and their surrounding operations.
+image: http://template.streamdata.gallery/assets/messente.png
+created: "2018-02-24"
+modified: "2018-06-20"
+url: http://messente.streamdata.gallery/apis.json
 specificationVersion: "0.14"
 apis: []
-x-common:
-- type: x-base
-  url: http://api2.messente.com
-- type: x-blog
-  url: http://messente.com/blog/
-- type: x-blog-rss
-  url: http://messente.com/blog/feed/
-- type: x-crunchbase
-  url: https://crunchbase.com/organization/messente-communications
-- type: x-developer
-  url: https://messente.com/pages/api/
-- type: x-email
-  url: support@messente.com
-- type: x-email
-  url: lauri.kinkar@messente.com
-- type: x-email
-  url: marcis.jurisons@messente.com
-- type: x-email
-  url: jaanus.roomus@messente.com
-- type: x-email
-  url: joosep.pintsaar@messente.com
-- type: x-email
-  url: margus.sytt@messente.com
-- type: x-email
-  url: marcus.kallavus@messente.com
-- type: x-email
-  url: kaur.virunurm@messente.com
-- type: x-email
-  url: uku.tomikas@messente.com
-- type: x-email
-  url: raili.liiva@messente.com
-- type: x-email
-  url: yuriy.mikitchenko@messente.com
-- type: x-faq
-  url: https://messente.com/pages/faq
-- type: x-pricing
-  url: https://messente.com/pricing/full
-- type: x-terms-of-service
-  url: https://messente.com/pages/terms
-- type: x-twitter
-  url: http://www.twitter.com/messente
-- type: x-website
-  url: https://messente.com
-include: []
+tags: Messente
+include:
+- name: Messente
+  url: https://raw.githubusercontent.com/streamdata-gallery-organizations/messente/master/_listings/messente/apis.yaml
 maintainers:
 - FN: Kin Lane
   x-twitter: apievangelist
