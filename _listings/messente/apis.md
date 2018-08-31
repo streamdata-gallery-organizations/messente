@@ -8,37 +8,29 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1817-messe
 x-kinRank: "7"
 x-alexaRank: "677156"
 tags: Messente
-created: "2018-06-26"
-modified: "2018-06-26"
+created: "2018-08-30"
+modified: "2018-08-30"
 url: https://raw.githubusercontent.com/streamdata-gallery-organizations/messente/master/_listings/messente/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Messente SMS API Send SMS
-  x-api-slug: messente-sms-api
+- name: Messente SMS API - Send SMS
+  x-api-slug: send-sms-get
   description: Sending SMS text messages
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1817-messente.jpg
   humanURL: https://messente.com
-  baseURL: http://api2.messente.com///send_sms/
-  tags: SMS,Messaging
+  baseURL: http://api2.messente.com//
+  tags: Target, Technology, Mobile, SaaS, Enterprise, API Provider, SMS, Messages,
+    Messages, Profiles, Service API, Relative Data, Networks
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/messente/master/_listings/messente/send-sms-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/messente/master/_listings/messente/send-sms-get-openapi.md
-- name: Messente SMS API
-  x-api-slug: messente-sms-api
-  description: Simple, powerful, and transparent. Thats how we do business. Start
-    messaging your clients and verifying users now. No commitments, contracts, or
-    sign-up fees.     http://messente.com/contact    Were a forward-thinking team.
-    Our purpose is to connect ...
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1817-messente.jpg
-  humanURL: https://messente.com
-  baseURL: http://api2.messente.com//
-  tags: Messente
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/messente/master/_listings/messente/openapi.md
 x-common:
+- type: x-api-gallery
+  url: http://meetup.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://messente.stack.network
 - type: x-base
   url: http://api2.messente.com
 - type: x-blog

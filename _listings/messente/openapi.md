@@ -1,4 +1,3 @@
----
 swagger: "2.0"
 x-collection-name: Messente
 x-complete: 1
@@ -7,14 +6,14 @@ info:
   description: -sending-sms-text-messages
   termsOfService: https://messente.com/pages/terms
   version: v1
-host: api2.messente.com
-basePath: /
 schemes:
 - http
 produces:
 - application/json
 consumes:
 - application/json
+host: api2.messente.com
+basePath: /
 paths:
   send_sms/:
     get:
@@ -61,4 +60,3 @@ paths:
       tags:
       - SMS
       - Messaging
----
